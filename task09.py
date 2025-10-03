@@ -1,2 +1,4 @@
 names = ["Ali", "Valijon", "Sami", "Diyorbek"]
-print(list(filter(lambda names : len( names) , names )))
+
+natija = max(names, key=lambda name: len(name))
+print(natija)
