@@ -1,5 +1,5 @@
-numbers = [4, -2, 0, 7, -9, 3, -1, 5]
+emails = ["ali@gmail.com", "vali@yahoo.com", "sami@gmail.com", "bek@outlook.com"]
 
-result =map(filter ( lambda numbers:numbers > 0))
 
-print(result)
+domains = list(map(lambda emails: emails.split("@")[1] , emails))
+print(domains)

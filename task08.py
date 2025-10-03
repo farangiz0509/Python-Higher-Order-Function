@@ -3,8 +3,5 @@ people = [
   {"name": "Sami", "age": 19},
   {"name": "Lola", "age": 31}
 ]
-
-
-result = sorted(people, key=lambda person: person["age"])
-
+result = sorted(people , key=lambda person:person["age"])
 print(result)
